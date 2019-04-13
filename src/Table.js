@@ -3,27 +3,18 @@ import TableHeader from './TableHeader'
 import TableBody from './TableBody'
 
 
-// class Table extends Component{
+ 
+class Table extends Component {
+  render() {
+    const { characterData } = this.props
 
-//   render(){
-
-//         return (
-//         <table>
-//           <TableHeader />
-//           <TableBody />
-//         </table>
-//       )
-//   }
-// }
-
-const Table = ()=> {
-
-  return (
-            <table>
-               <TableHeader />
-               <TableBody />
-             </table>
-  )
+    return (
+      <table>
+        <TableHeader />
+        <TableBody characterData={characterData} />
+      </table>
+    )
+  }
 }
 
 export default Table
