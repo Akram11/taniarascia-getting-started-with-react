@@ -2,52 +2,28 @@ import React, {Component} from 'react'
 import TableHeader from './TableHeader'
 import TableBody from './TableBody'
 
-// const TableHeader = () => {
-//   return (
-//     <thead>
-//       <tr>
-//         <th>Name</th>
-//         <th>Job</th>
-//       </tr>
-//     </thead>
-//   )
+
+// class Table extends Component{
+
+//   render(){
+
+//         return (
+//         <table>
+//           <TableHeader />
+//           <TableBody />
+//         </table>
+//       )
+//   }
 // }
 
-// const TableBody = () => {
-//   return (
-//     <tbody>
-//       <tr>
-//         <td>Charlie</td>
-//         <td>Janitor</td>
-//       </tr>
-//       <tr>
-//         <td>Mac</td>
-//         <td>Bouncer</td>
-//       </tr>
-//       <tr>
-//         <td>Dee</td>
-//         <td>Aspiring actress</td>
-//       </tr>
-//       <tr>
-//         <td>Dennis</td>
-//         <td>Bartender</td>
-//       </tr>
-//     </tbody>
-//   )
-// }
+const Table = ()=> {
 
-
-class Table extends Component{
-
-  render(){
-
-        return (
-        <table>
-          <TableHeader />
-          <TableBody />
-        </table>
-      )
-  }
+  return (
+            <table>
+               <TableHeader />
+               <TableBody />
+             </table>
+  )
 }
 
 export default Table
